@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+.imagenHonolulu {
+
+    display: inline-flex;
+
+
+}
+
+@media screen and (max-width:998px) {
+    .imagenHonolulu {
+
+        display: block;
+
+
+    }
+
+}
+
+
+.fondo {
+    background-color: rgba(50, 50, 50, 1);
+    color: rgba(215, 215, 215, 1);
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px ridge;
+}
+
+.imagen {
+    border: 1px ridge;
+
+
+}
+
+
+.boton {
+
+    background-color: rgba(50, 50, 50, 1);
+    color: rgba(215, 215, 215, 1);
+    padding: 5px;
+    border: 1px solid rgba(215, 215, 215, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: grey;
+
+
+}
+
+
+.formulario {
+
+
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+.contenidoForm {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(55, 128, 156, 1);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(215, 215, 215, 1);
+
+}
+
+.boton7 {
+
+    width: 100%;
+    color: white;
+    background-color: rgba(161, 216, 61, 1);
+
+
+}
+
+
+.boton6 {
+    background-color: aqua;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.areaTexto {
+
+    width: 100%;
+    resize: none;
+    height: 70px;
+    font-size: 20px;
+
+}
+
+
+.entrada1 {
+
+
+    width: 50%;
+}
+
+.entradas {
+
+    display: flex;
+
+
+}
+
+.entrada12 {
+
+    width: 50%;
+    margin-left: 25px;
+
+}
+
+
+.boton1 {
+
+    background-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.boton2 {
+
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton3 {
+    margin-left: 10px;
+
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton4 {
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(215, 215, 215, 1);
+    border-radius: 5px;
+
+}
+
+.boton5 {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid green;
+    cursor: pointer;
+    padding: 5px;
+
+
+}
+
+.lista1 {
+
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.navbar {
+    background-color: grey;
+
+    padding: 20px 0 0 0;
+
+}
+
+
+.fondoBsAs {
+
+    background-image: url(../imagenes/ba1.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-end;
+    padding: 0 50px 325px 0;
+
+
+}
+
+
+.cuadro {
+
+    display: block;
+    border: 1px solid black;
+    width: 300px;
+}
+
+
+
+ul li {
+
+    display: inline;
+    margin: 0 0 0 10px;
+
+
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.active {
+
+    color: white;
+
+}
+
+.comprar {
+
+    color: green;
+
+}
+
+
+ul li a:hover {
+
+    color: black;
+
+}
+
+
+@media screen and (max-width:874px) {
+
+    .lista1 {
+
+        display: block;
+
+    }
+
+    ul li {
+
+        display: block;
+
+    }
+
+}
+
+
+.cartas {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+
+@media screen and (max-width:926px) and (min-width:633px) {
+
+    .cuadro {
+        width: 200px;
+        display: inline-block;
+
+
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:632px) {
+
+
+    .cartas {
+
+        display: block;
+
+    }
+
+    .cuadro {
+        width: 300px;
+
+        margin: auto;
+
+
+
+    }
+
+}
